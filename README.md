@@ -10,9 +10,7 @@ In the BERT model, we are feeding the BERT embeddings to CNN, followed by FNN la
 
 ## How to run 
 
-1. To run TweetSentimentAnalyis correctly, you should open the notebook in Google Colab. You can directly navigate to our original Colab directory here: https://colab.research.google.com/drive/15OwroDxWtz-aEBZ-Wld8m3sAaEgkj4wE?authuser=3#scrollTo=Au8Sx6tMkDRj
-
-Alternatively, you can upload the notebook to your own Drive account and open Colab from there. The notebook is separated into multiple parts for readability since we have experimented with several models in several ways. You should access datasets to complete the preprocessing part correctly. You can see https://drive.google.com/file/d/175tkmdRAPL5GOzRf5zG0MAlClFc2qOic/view?usp=drive_link and https://drive.google.com/file/d/1xMtvAGAask2ZAewHPnoqSQ9Jn6CKZF_b/view?usp=drivesdk for our first and second dataset respectively. 
+1. To run TweetSentimentAnalyis correctly, you should open the notebook in Google Colab. You can directly navigate to our original Colab directory here: https://colab.research.google.com/drive/15OwroDxWtz-aEBZ-Wld8m3sAaEgkj4wE?authuser=3#scrollTo=Au8Sx6tMkDRj .Alternatively, you can upload the notebook to your own Drive account and open Colab from there. The notebook is separated into multiple parts for readability since we have experimented with several models in several ways. You should access datasets to complete the preprocessing part correctly. You can see https://drive.google.com/file/d/175tkmdRAPL5GOzRf5zG0MAlClFc2qOic/view?usp=drive_link and https://drive.google.com/file/d/1xMtvAGAask2ZAewHPnoqSQ9Jn6CKZF_b/view?usp=drivesdk for our first and second dataset respectively. 
 
 2. You should first import everything needed in the Imports section. Later, run the Preprocessing: Kaggle Dataset part to complete the preprocessing of the first dataset. Then, you can run Naive Bayes and Logistic Regression parts correctly. 
 
