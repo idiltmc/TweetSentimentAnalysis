@@ -20,8 +20,13 @@ In the BERT model, we are feeding the BERT embeddings to CNN, followed by FNN la
 
 5. To see the results for Binary Semeval results, run the cell named Trying Binary Semeval.
 
-Please note that these processes take too much time and resources. We have used T4 GPU along with accelerated RAM, but we completed running this notebook for different Google accounts because of resource insufficiencies. You can see our report for all the final results. Most of our results are given under the cells.
+6. Please note that these processes take too much time and resources. We have used T4 GPU along with accelerated RAM, but we completed running this notebook for different Google accounts because of resource insufficiencies. You can see our report for all the final results. Most of our results are given under the cells.
 
+## Results
+
+1. For the first dataset, we got the best accuracy of %95 for BERT with Cross Entropy with downsampling. For the imbalanced version, we got the best result for BERT with Focal Loss.
+2. For the second dataset (labels: natural, positive, negative), we got the best accuracy of %71 with BERT and Focal loss, where Naive Bayes and Logistic Regression results were %62.
+2. For the second dataset with two labels (positive and negative), we got the best accuracy of %88 with BERT, where Naive Bayes and Logistic Regression results were %70.
 
 
 
